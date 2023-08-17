@@ -31,7 +31,7 @@ import java.util.List;
 @SpringBootTest
 public class ApiTest {
 
-    private Logger logger = LoggerFactory.getLogger(SpringBootRunTest.class);
+    private Logger logger = LoggerFactory.getLogger(ApiApplication.class);
     @Value("${chatbot-api.groupId}")
     private String groupId;
     @Value("${chatbot-api.cookie}")
