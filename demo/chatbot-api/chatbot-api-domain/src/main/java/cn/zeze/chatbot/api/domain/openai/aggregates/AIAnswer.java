@@ -1,4 +1,4 @@
-package cn.zeze.chatbot.api.domain.ai.aggregates;
+package cn.zeze.chatbot.api.domain.openai.aggregates;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

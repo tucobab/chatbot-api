@@ -2,7 +2,7 @@
 /**
  * Copyright 2023 bejson.com
  */
-package cn.zeze.chatbot.api.domain.ai.vo;
+package cn.zeze.chatbot.api.domain.openai.vo;
 import java.util.List;
 
 /**

@@ -1,12 +1,9 @@
-package cn.zeze.chatbot.api.domain.ai.service;
+package cn.zeze.chatbot.api.domain.openai;
 
 import cn.hutool.http.HttpStatus;
-import cn.zeze.chatbot.api.domain.ai.IOpenAI;
-import cn.zeze.chatbot.api.domain.ai.aggregates.AIAnswer;
-import cn.zeze.chatbot.api.domain.ai.vo.Choices;
-import cn.zeze.chatbot.api.domain.ai.vo.JsonRootBean;
+import cn.zeze.chatbot.api.domain.openai.vo.Choices;
+import cn.zeze.chatbot.api.domain.openai.vo.JsonRootBean;
 import com.alibaba.fastjson.JSON;
-import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.ContentType;
@@ -17,10 +14,7 @@ import org.apache.http.util.EntityUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.awt.*;
-import java.awt.image.ImageObserver;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 @Service
 public class OpenAI implements IOpenAI {

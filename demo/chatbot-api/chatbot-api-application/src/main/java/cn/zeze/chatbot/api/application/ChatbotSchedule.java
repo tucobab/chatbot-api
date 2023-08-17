@@ -1,7 +1,7 @@
 package cn.zeze.chatbot.api.application;
 //问题任务
 
-import cn.zeze.chatbot.api.domain.ai.IOpenAI;
+import cn.zeze.chatbot.api.domain.openai.IOpenAI;
 import cn.zeze.chatbot.api.domain.zsxq.aggregates.queryUnanswerQuestionsAggregates;
 import cn.zeze.chatbot.api.domain.zsxq.service.IZsxqApi;
 import cn.zeze.chatbot.api.domain.zsxq.vo.Topics;

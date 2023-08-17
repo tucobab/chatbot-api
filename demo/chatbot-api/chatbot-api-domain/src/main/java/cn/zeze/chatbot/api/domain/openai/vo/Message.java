@@ -1,4 +1,4 @@
-package cn.zeze.chatbot.api.domain.ai.vo;
+package cn.zeze.chatbot.api.domain.openai.vo;
 
 import lombok.Data;
 

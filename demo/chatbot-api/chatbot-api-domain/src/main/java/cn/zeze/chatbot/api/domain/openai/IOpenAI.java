@@ -1,4 +1,4 @@
-package cn.zeze.chatbot.api.domain.ai;
+package cn.zeze.chatbot.api.domain.openai;
 
 import java.io.IOException;
 
